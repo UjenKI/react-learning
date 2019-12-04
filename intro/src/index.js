@@ -6,12 +6,16 @@ import Search from "./components/search/search";
 import ContactList from "./components/contact-list/contact-list";
 
 const App = () => {
+
+    const List = [
+        { name: "Jack Sparrow", description: "Captain", avatar: "https://bootdey.com/img/Content/user_1.jpg" }
+    ]
     return (
-        <Fragment>
+        <div class="container bootstrap snippet">
             <h1>Hello app</h1>
             <Search />
-            <ContactList />
-        </Fragment>
+            <ContactList ContactList={List} />
+        </div>
     )
 }
 

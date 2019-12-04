@@ -1,0 +1,10 @@
+.panel{
+    background: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 8px 0;
+}
+.list-inline{
+    display: flex;
+    justify-content: space-evenly;
+}
